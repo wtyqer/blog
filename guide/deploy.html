@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Deploying | VuePress</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/blog/logo.png">
+    <meta name="description" content="Vue-powered Static Site Generator">
+    <link rel="preload" href="/blog/assets/css/0.styles.a7ae810e.css" as="style"><link rel="preload" href="/blog/assets/js/app.24e95363.js" as="script"><link rel="preload" href="/blog/assets/js/2.b1bc4079.js" as="script"><link rel="preload" href="/blog/assets/js/14.db355c98.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.ede4abd8.js"><link rel="prefetch" href="/blog/assets/js/11.78ffa86e.js"><link rel="prefetch" href="/blog/assets/js/12.1986ebb9.js"><link rel="prefetch" href="/blog/assets/js/13.b0cdf361.js"><link rel="prefetch" href="/blog/assets/js/15.4ec67791.js"><link rel="prefetch" href="/blog/assets/js/16.e95e433c.js"><link rel="prefetch" href="/blog/assets/js/17.83dbf607.js"><link rel="prefetch" href="/blog/assets/js/18.5692da2f.js"><link rel="prefetch" href="/blog/assets/js/19.78ca601d.js"><link rel="prefetch" href="/blog/assets/js/3.ef909ac6.js"><link rel="prefetch" href="/blog/assets/js/4.5d152b90.js"><link rel="prefetch" href="/blog/assets/js/5.d7d78fa4.js"><link rel="prefetch" href="/blog/assets/js/6.399a84c3.js"><link rel="prefetch" href="/blog/assets/js/7.2bf2d60c.js"><link rel="prefetch" href="/blog/assets/js/8.04657f0f.js"><link rel="prefetch" href="/blog/assets/js/9.23eddc95.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.a7ae810e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">VuePress</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/guide/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/blog/config/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/blog/default-theme-config/" class="nav-link">
+  开发者手册
+</a></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/guide/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/blog/config/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/blog/default-theme-config/" class="nav-link">
+  开发者手册
+</a></div> <a href="https://github.com/vuejs/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Guide</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/guide/docker-beginner.html" class="sidebar-link">Docker 入门教程</a></li><li><a href="/blog/guide/docker-services.html" class="sidebar-link">Docker 微服务教程</a></li><li><a href="/blog/guide/assets.html" class="sidebar-link">Asset Handling</a></li><li><a href="/blog/guide/markdown.html" class="sidebar-link">Markdown Extensions</a></li><li><a href="/blog/guide/using-vue.html" class="sidebar-link">Using Vue in Markdown</a></li><li><a href="/blog/guide/custom-themes.html" class="sidebar-link">Custom Themes</a></li><li><a href="/blog/guide/deploy.html" class="active sidebar-link">Deploying</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/guide/deploy.html#github-pages" class="sidebar-link">GitHub Pages</a></li><li class="sidebar-sub-header"><a href="/blog/guide/deploy.html#netlify" class="sidebar-link">Netlify</a></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Git 原理详解及实用指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/guide/VCS.html" class="sidebar-link">什么是版本控制系统（VCS）</a></li><li><a href="/blog/guide/react-navigation4.html" class="sidebar-link">RN0.6xreactnavigation4x等升级适配说明</a></li><li><a href="/blog/guide/react-navigation5.html" class="sidebar-link">RN0.6xreactnavigation5x等升级适配说明</a></li><li><a href="/blog/guide/assets.html" class="sidebar-link">Asset Handling</a></li><li><a href="/blog/guide/markdown.html" class="sidebar-link">Markdown Extensions</a></li><li><a href="/blog/guide/using-vue.html" class="sidebar-link">Using Vue in Markdown</a></li><li><a href="/blog/guide/custom-themes.html" class="sidebar-link">Custom Themes</a></li><li><a href="/blog/guide/deploy.html" class="active sidebar-link">Deploying</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/guide/deploy.html#github-pages" class="sidebar-link">GitHub Pages</a></li><li class="sidebar-sub-header"><a href="/blog/guide/deploy.html#netlify" class="sidebar-link">Netlify</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="deploying"><a href="#deploying" class="header-anchor">#</a> Deploying</h1> <p>The following guides assumes you are placing your docs inside the <code>docs</code> directory of your project and using the default build output location.</p> <h2 id="github-pages"><a href="#github-pages" class="header-anchor">#</a> GitHub Pages</h2> <ol><li><p>Set <code>base</code> in <code>.vuepress/config.js</code> to your repository's name. For example, if your repository is <code>https://github.com/foo/bar</code>, the deployed pages will be available at <code>https://foo.github.io/bar</code>. In this case, you should set <code>base</code> to <code>&quot;/bar/&quot;</code>.</p></li> <li><p>Inside your project, run:</p></li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># build</span>
+vuepress build docs
+
+<span class="token comment"># navigate into the build output directory</span>
+<span class="token builtin class-name">cd</span> docs/.vuepress/dist
+
+<span class="token function">git</span> init
+<span class="token function">git</span> <span class="token function">add</span> -A
+<span class="token function">git</span> commit -m <span class="token string">'deploy'</span>
+
+<span class="token comment"># push to the gh-pages branch of your repo.</span>
+<span class="token comment"># replace &lt;USERNAME&gt;/&lt;REPO&gt; with your info</span>
+<span class="token function">git</span> push -f git@github.com:<span class="token operator">&lt;</span>USERNAME<span class="token operator">&gt;</span>/<span class="token operator">&lt;</span>REPO<span class="token operator">&gt;</span>.git master:gh-pages
+</code></pre></div><p>You can run this script in your CI setup to enable automatic deployment on each push.</p> <h2 id="netlify"><a href="#netlify" class="header-anchor">#</a> Netlify</h2> <ol><li>Make sure you have npm scripts for building your docs:</li></ol> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;build-docs&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li>On Netlify, setup up a new project from GitHub with the following settings:</li></ol> <ul><li><strong>Build Command:</strong> <code>npm run build-docs</code> or <code>yarn build-docs</code></li> <li><strong>Publish directory:</strong> <code>docs/.vuepress/dist</code></li></ul> <ol start="3"><li>Hit the deploy button!</li></ol></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/vuejs/vuepress/edit/master/docs/guide/deploy.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/guide/custom-themes.html" class="prev">
+        Custom Themes
+      </a></span> <span class="next"><a href="/blog/guide/VCS.html">
+        什么是版本控制系统（VCS）
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.24e95363.js" defer></script><script src="/blog/assets/js/2.b1bc4079.js" defer></script><script src="/blog/assets/js/14.db355c98.js" defer></script>
+  </body>
+</html>
